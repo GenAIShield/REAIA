@@ -124,7 +124,7 @@ graph TD
 - Project Lead: [Mainul](https://github.com/yourusername)
 - Frontend Developer: [Achuth Dintakurthi](https://github.com/developer1)
 - Backend Developer: [Aadarsh](https://github.com/developer2)
-- Backend Developer: [Yogesh Kumar](https://github.com/developer2)
+- Backend Developer: [YogeshKumar R](https://github.com/Yogeshkumar-R/)
 
 ## 📞 Contact
 
