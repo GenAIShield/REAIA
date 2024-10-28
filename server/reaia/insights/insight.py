@@ -1,7 +1,7 @@
-from helpers import load_document
-from helpers import chunk_data
-from helpers import insert_or_fetch_embeddings
-from helpers import qa_chain_gpt
+from server.reaia.utils.helpers import load_document
+from server.reaia.utils.helpers import chunk_data
+from server.reaia.utils.helpers import insert_or_fetch_embeddings
+from server.reaia.utils.helpers import qa_chain_gpt
 
 
 def get_paper_insight(file="IRJET-V8I1201.pdf"):

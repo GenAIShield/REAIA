@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 # Load environment variables (assumes you have MySQL credentials in your .env file)
 load_dotenv()
 
-
 def get_db_connection():
     """Establishes a connection to the MySQL database."""
     try:
@@ -22,7 +21,6 @@ def get_db_connection():
         print(f"Error connecting to MySQL: {e}")
     return None
 
-
 def create_tables():
     """Creates necessary tables in the MySQL database if they do not exist."""
     connection = get_db_connection()
@@ -30,7 +28,7 @@ def create_tables():
         return
 
     cursor = connection.cursor()
-
+    
     # Create chat_history table if it doesn't exist
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS chat_history (
@@ -45,7 +43,6 @@ def create_tables():
     cursor.close()
     connection.close()
 
-
 def fetch_chat_history():
     """Fetches chat history from the MySQL database."""
     connection = get_db_connection()
@@ -58,7 +55,6 @@ def fetch_chat_history():
     cursor.close()
     connection.close()
     return history
-
 
 def save_chat_entry(question, response):
     """Saves a question-response pair in the MySQL chat history table."""

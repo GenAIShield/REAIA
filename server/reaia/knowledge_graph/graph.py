@@ -1,30 +1,21 @@
 import os
 import pymupdf
-# import wikipediaapi
-from neo4j_driver import get_neo4j_driver
+from server.reaia.utils.neo4j_driver import get_neo4j_driver
 import tempfile
 import webbrowser
 from pyvis.network import Network
-# from entities import  Entities
 from IPython.core.display_functions import display
 from dotenv import load_dotenv, find_dotenv
-# from typing import Tuple, List, Optional
-# from langchain_core.messages import AIMessage, HumanMessage
-# from langchain_core.output_parsers import StrOutputParser
-# from langchain_core.runnables import ConfigurableField
 from yfiles_jupyter_graphs import GraphWidget
-# from neo4j import GraphDatabase
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.prompts.prompt import PromptTemplate
 from langchain_community.vectorstores import Neo4jVector
 from langchain_community.graphs import Neo4jGraph
-from langchain_community.document_loaders import WikipediaLoader
 from langchain_community.document_loaders import PyMuPDFLoader, Docx2txtLoader
 from langchain.text_splitter import TokenTextSplitter
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_experimental.graph_transformers import LLMGraphTransformer
 from langchain_community.vectorstores.neo4j_vector import remove_lucene_chars
-# from langchain_core.runnables import RunnableBranch,RunnableLambda,RunnableParallel,RunnablePassthrough
 from ipywidgets.embed import embed_minimal_html
 
 # load the environment
@@ -143,4 +134,3 @@ def create_graph():
         return "graph is loaded"
     except ValueError as e:
         raise ValueError(f"graph is not loaded: {e}")
-

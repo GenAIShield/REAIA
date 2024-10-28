@@ -1,8 +1,8 @@
-from helpers import load_document, chunk_data, insert_or_fetch_embeddings, qa_chain_gpt
+from server.reaia.utils.helpers import load_document, chunk_data, insert_or_fetch_embeddings, qa_chain_gpt
 from insight import get_paper_insight
-from plagiarism import get_plagiarism_result
-from readability import get_readability_insight
-from relevancy import get_paper_relevancy
+from server.reaia.insights.plagiarism import get_plagiarism_result
+from server.reaia.insights.readability import get_readability_insight
+from server.reaia.insights.relevancy import get_paper_relevancy
 
 
 def get_results(file, topic):
