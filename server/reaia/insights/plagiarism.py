@@ -1,5 +1,5 @@
 import requests
-from server.reaia.utils.helpers import load_document
+from reaia.utils.helpers import load_document
 
 url = "https://www.prepostseo.com/apis/checkPlag"
 api_key = "68de9c4b705d6c07a4e367296d10c773"

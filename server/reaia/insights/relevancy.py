@@ -1,7 +1,7 @@
-from server.reaia.utils.helpers import load_document
-from server.reaia.utils.helpers import chunk_data
-from server.reaia.utils.helpers import insert_or_fetch_embeddings
-from server.reaia.utils.helpers import qa_chain_gpt
+from reaia.utils.helpers import load_document
+from reaia.utils.helpers import chunk_data
+from reaia.utils.helpers import insert_or_fetch_embeddings
+from reaia.utils.helpers import qa_chain_gpt
 
 
 def paper_relevancy(file="IRJET-V8I1201.pdf", topic="university admission"):

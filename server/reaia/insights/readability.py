@@ -1,6 +1,6 @@
 import textstat
 import re
-from server.reaia.utils.helpers import load_document, extract_text, chunk_data, insert_or_fetch_embeddings, qa_chain_gpt
+from reaia.utils.helpers import load_document, extract_text, chunk_data, insert_or_fetch_embeddings, qa_chain_gpt
 
 # Define maximum scores to normalize readability metrics
 MAX_SCORES = {
