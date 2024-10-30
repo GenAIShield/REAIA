@@ -4,12 +4,12 @@ import mysql.connector
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from datetime import datetime
-from server.reaia.chat.bot import answer_question
-from server.reaia.insights.aggregate import get_results
-from server.reaia.chat.db import fetch_chat_history
-from server.reaia.knowledge_graph.graph import create_graph
-from server.reaia.insights.insight import get_paper_insight
-from server.reaia.utils.neo4j_driver import get_neo4j_driver
+from reaia.chat.bot import answer_question
+from reaia.insights.aggregate import get_results
+from reaia.chat.db import fetch_chat_history
+from reaia.knowledge_graph.graph import create_graph
+from reaia.insights.insight import get_paper_insight
+from reaia.utils.neo4j_driver import get_neo4j_driver
 
 app = Flask(__name__)
 CORS(app)
