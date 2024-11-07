@@ -44,7 +44,7 @@ Evaluate research relevance with powerful analytics:
 ### Prerequisites
 ```bash
 # Clone the repository
-git clone https://github.com/GenAIShield/reaia.git
+git clone https://github.com/GenAIShield/REAIA.git
 
 # Navigate to the project directory
 cd reaia
