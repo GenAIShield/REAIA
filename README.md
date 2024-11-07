@@ -44,13 +44,13 @@ Evaluate research relevance with powerful analytics:
 ### Prerequisites
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/reaia.git
+git clone https://github.com/GenAIShield/reaia.git
 
 # Navigate to the project directory
 cd reaia
 ```
 
-### Frontend Setup
+### Frontend Setup:
 ```bash
 # Navigate to frontend directory
 cd frontend
@@ -62,7 +62,7 @@ npm install
 npm start
 ```
 
-### Backend Setup
+### Backend Setup:
 ```bash
 # Navigate to backend directory
 cd backend
@@ -80,65 +80,27 @@ pip install -r requirements.txt
 # Start Flask server
 python app.py
 ```
+### 💡 Key Components
+Frontend: React.js with Tailwind CSS
+Backend: Flask RESTful API
+Database: MySQL for data management and chat history storage
+Graph Database: Neo4j for graph-based insights and relationships
 
-## 🎯 Usage Example
+### 👥 Team
+Project Manager: Mainul Abedin
+Frontend Developer: Achuth Dintakurthi
+Backend Developer: Aadarsh
+Backend Developer: [Yogeshkumar R](https://github.com/Yogeshkumar-R/)
 
-```python
-from reaia import ResearchAssistant
-
-# Initialize REAIA
-assistant = ResearchAssistant()
-
-# Search for relevant papers
-papers = assistant.search("artificial intelligence in healthcare")
-
-# Generate insights
-insights = assistant.analyze(papers)
-```
-
-<div align="center">
-<img src="/api/placeholder/600/300" alt="REAIA Usage Demo" />
-</div>
-
-## 🏗️ Architecture
-
-```mermaid
-graph TD
-    A[Frontend - React] --> B[API Layer]
-    B --> C[Backend - Flask]
-    C --> D[AI Engine]
-    D --> E[Graph Database]
-    D --> F[Document Store]
-```
-
-## 💡 Key Components
-
-- **Frontend**: React.js with Tailwincd CSS
-- **Backend**: Flask RESTful API
-- **Models Used**: 
-- **Database**: 
-
-
-## 👥 Team
-
-- Project Lead: [Mainul](https://github.com/yourusername)
-- Frontend Developer: [Achuth Dintakurthi](https://github.com/developer1)
-- Backend Developer: [Aadarsh](https://github.com/developer2)
-- Backend Developer: [YogeshKumar R](https://github.com/Yogeshkumar-R/)
-
-## 📞 Contact
-
+### 📞 Contact
 For support or queries:
-- Email: 
-- Twitter: 
-- Website: 
 
+Email: [QuantumMinds]()
+Twitter: [QuantumMinds]()
+Website: [yourwebsite.com]()
 <div align="center">
-
----
-
 Made with ❤️ by the REAIA Team
 
-[⬆ Back to top](#reaia-)
+⬆ Back to top
 
-</div>
+</div> ```
