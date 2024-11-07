@@ -94,10 +94,10 @@ Backend Developer: [Yogeshkumar R](https://github.com/Yogeshkumar-R/)
 
 ### 📞 Contact
 For support or queries:
-
 Email: [QuantumMinds]()
 Twitter: [QuantumMinds]()
 Website: [yourwebsite.com]()
+
 <div align="center">
 Made with ❤️ by the REAIA Team
 
